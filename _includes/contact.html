@@ -12,19 +12,22 @@
     <div class="col-md-12">
       <div class="row">
         {% if item.url %}
-        <a class="fa-stack fa-2x contact-icon" href="{{ item.url }}" target="_blank">
+        <a class="fa-stack fa-2x contact-link" href="{{ item.url }}" target="_blank">
           <i class="fas fa-circle fa-stack-2x"></i>
           {% if item.icon %}<i class="{{ item.icon }} fa-stack-1x fa-inverse"></i>{% endif %}
         </a>
+        <a href="{{item.url}}" class="service-heading contact-link">{{ item.title | markdownify }}</a>
+        <a href="{{item.url}}" class="service-heading contact-link">{{ item.desc | markdownify }}</a>
         {% else %}
         <span class="fa-stack fa-2x">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i class="{{ item.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
         </span>
-        {% endif %}
-
         <label class="service-heading">{{ item.title | markdownify }}</label>
         <label class="service-heading">{{ item.desc | markdownify }}</label>
+        {% endif %}
+
+       
       </div>
     </div>
     {% endfor %}
