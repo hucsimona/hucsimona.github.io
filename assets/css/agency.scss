@@ -5,9 +5,21 @@
 @import "base/variables.scss";
 @import "base/mixins.scss";
 
+
+// #002F5D - granatowy
+
+// #B69D74 - ZŁOTY z kompletu
+// #1F2839 - granatowy z kompletu
+// #F5F5EF - biały z kompletu
+ 
+
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
-$white: {{ site.data.style.white | default: "#fff" }} !default;
+$primary: {{ site.data.style.highlight | default: "#B69D74" }} !default;
+// $secondary: {{ site.data.style.highlight | default: "#002F5D" }} !default;
+$secondary: {{ site.data.style.highlight | default: "#1F2839" }} !default;
+$tertiary: {{ site.data.style.highlight | default: "#F5F5EF" }} !default;
+
+$white: {{ site.data.style.white | default: "#F5F5EF" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
