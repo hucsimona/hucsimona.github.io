@@ -33,7 +33,7 @@ decyzję Klientowi."
         desc: "polegające na określeniu z góry kwoty wynagrodzenia za wykonanie konkretnej usługi prawnej"
         icon: fas fa-money-bill
       - title: "Wynagrodzenie godzinowe"
-        desc: "polegające na rozliczeniu świadczonej pomocy prawnej na podstawie poświęconego przez Kancelarię czasu na realizację zlecenia Wszelkie wynikające z tego kwestie są do uzgodnienia podczas osobistego kontaktu z Kancelarią."
+        desc: "polegające na rozliczeniu świadczonej pomocy prawnej na podstawie poświęconego przez Kancelarię czasu na realizację zlecenia. Wszelkie wynikające z tego kwestie są do uzgodnienia podczas osobistego kontaktu z Kancelarią."
         icon: fas fa-clock
 
   portfolio:
